@@ -31,8 +31,6 @@ public class principal {
 			nome = leitor.nextInt();
 			nome = nome - 1;
 			
-			leitor.nextLine();
-			
 			System.out.println("Temos 3 sessões para "+ films[nome] +", diga qual prefere: 1- 13h, 2- 16h, 3- 18h");
 			
 			sessao = leitor.nextInt();
